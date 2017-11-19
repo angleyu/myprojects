@@ -1,0 +1,1 @@
+var $qihuan=$(".qiehuan"),$qia=$qihuan.find("a"),$con=$(".con-5"),$conLi=$con.find("li"),$index=0;$qia.mouseenter(function(){$index=$(this).index(),$conLi.hide(),$conLi.eq($index).show()});var mySwiper=new Swiper(".swiper-container",{direction:"horizontal",loop:!0,autoplay:2e3});

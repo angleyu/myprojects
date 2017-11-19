@@ -1,0 +1,1 @@
+define(function(){return{add:function(){var n=$(".qiehuan").find("a"),i=$(".con-5").find("li"),e=0;n.mouseenter(function(){e=$(this).index(),i.hide(),i.eq(e).show()})}}});
